@@ -193,31 +193,34 @@ public class AdaugaContact extends javax.swing.JFrame {
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 131, -1, -1));
 
         bAdauga.setBackground(new java.awt.Color(0, 51, 51));
+        bAdauga.setForeground(new java.awt.Color(255, 255, 255));
         bAdauga.setText("Adauga");
         bAdauga.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bAdaugaActionPerformed(evt);
             }
         });
-        getContentPane().add(bAdauga, new org.netbeans.lib.awtextra.AbsoluteConstraints(244, 45, 74, 83));
+        getContentPane().add(bAdauga, new org.netbeans.lib.awtextra.AbsoluteConstraints(244, 45, 90, 83));
 
         bModifica.setBackground(new java.awt.Color(0, 51, 51));
+        bModifica.setForeground(new java.awt.Color(255, 255, 255));
         bModifica.setText("Modifica");
         bModifica.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bModificaActionPerformed(evt);
             }
         });
-        getContentPane().add(bModifica, new org.netbeans.lib.awtextra.AbsoluteConstraints(244, 146, -1, 79));
+        getContentPane().add(bModifica, new org.netbeans.lib.awtextra.AbsoluteConstraints(244, 146, 90, 79));
 
         butonClose.setBackground(new java.awt.Color(0, 51, 51));
+        butonClose.setForeground(new java.awt.Color(255, 255, 255));
         butonClose.setText("Close");
         butonClose.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 butonCloseActionPerformed(evt);
             }
         });
-        getContentPane().add(butonClose, new org.netbeans.lib.awtextra.AbsoluteConstraints(244, 230, 74, -1));
+        getContentPane().add(butonClose, new org.netbeans.lib.awtextra.AbsoluteConstraints(244, 230, 90, -1));
 
         jPanel1.setBackground(new java.awt.Color(0, 102, 102));
 

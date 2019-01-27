@@ -203,6 +203,7 @@ public class Frame extends javax.swing.JFrame {
         meniuSalveaza = new javax.swing.JMenuItem();
         jMenuItem3 = new javax.swing.JMenuItem();
         meniuAjutor = new javax.swing.JMenu();
+        jMenuItem1 = new javax.swing.JMenuItem();
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -528,6 +529,15 @@ public class Frame extends javax.swing.JFrame {
         jMenuBar1.add(meniuFisiere);
 
         meniuAjutor.setText("Ajutor");
+
+        jMenuItem1.setText("Informatii");
+        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem1ActionPerformed(evt);
+            }
+        });
+        meniuAjutor.add(jMenuItem1);
+
         jMenuBar1.add(meniuAjutor);
 
         setJMenuBar(jMenuBar1);
@@ -894,6 +904,13 @@ public class Frame extends javax.swing.JFrame {
         meniuSalveaza.setEnabled(false);
     }//GEN-LAST:event_bBackAutentificareActionPerformed
 
+    //Butonul de ajutor:informatii
+    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+
+    new Ajutor().setVisible(true);
+        
+    }//GEN-LAST:event_jMenuItem1ActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JComboBox<String> alegeCriteriul;
@@ -918,6 +935,7 @@ public class Frame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
